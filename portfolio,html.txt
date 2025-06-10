@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vishal Kumar Portfolio</title>
+<!-- Font Awesome CDN for icons -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f7f9fc;
+    color: #333;
+  }
+  header {
+    background-color: #0077cc;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.8rem;
+  }
+  header p {
+    font-size: 1.3rem;
+    margin: 6px 0 0;
+  }
+  .container {
+    max-width: 900px;
+    margin: 35px auto;
+    background: white;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  section {
+    margin-bottom: 35px;
+  }
+  h2 {
+    border-bottom: 3px solid #0077cc;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  h2 i {
+    color: #0077cc;
+  }
+  ul.skills {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul.skills li {
+    display: inline-block;
+    background-color: #d0e7ff;
+    color: #0077cc;
+    padding: 10px 18px;
+    margin: 7px 8px 7px 0;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  ul.projects li {
+    margin-bottom: 14px;
+    font-size: 1.1rem;
+  }
+  a.project-link {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a.project-link:hover {
+    text-decoration: underline;
+  }
+  .contact-info {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  .contact-info i {
+    color: #0077cc;
+    margin-right: 10px;
+  }
+  footer {
+    text-align: center;
+    margin: 30px 0 15px;
+    font-size: 14px;
+    color: #777;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1><i class="fas fa-user"></i> Vishal Kumar</h1>
+  <p><i class="fas fa-code"></i> Frontend Developer | Internship Seeker</p>
+</header>
+<div class="container">
+  <section id="about">
+    <h2><i class="fas fa-info-circle"></i> About Me</h2>
+    <p>Hello! I am Vishal Kumar, a passionate frontend developer learning and building projects to enhance my skills. I am looking for internship opportunities to gain hands-on experience and contribute effectively.</p>
+  </section>
+  <section id="skills">
+    <h2><i class="fas fa-tools"></i> Skills</h2>
+    <ul class="skills">
+      <li><i class="fab fa-html5"></i> HTML</li>
+      <li><i class="fab fa-css3-alt"></i> CSS</li>
+      <li><i class="fab fa-js-square"></i> JavaScript</li>
+      <li><i class="fab fa-github"></i> Git & GitHub</li>
+    </ul>
+  </section>
+  <section id="projects">
+    <h2><i class="fas fa-folder-open"></i> Projects</h2>
+    <ul class="projects">
+      <li>
+        <a href="https://github.com/visha1stack/todo-list-app" target="_blank" class="project-link">
+          <i class="fas fa-check-square"></i> Simple To-Do List App
+        </a> - A basic task management web app built with HTML, CSS, and JavaScript.
+      </li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+    <p class="contact-info"><i class="fas fa-envelope-open"></i> Email: <a href="mailto:itsvishal8265@gmail.com"><strong>itsvishal8265@gmail.com</strong></a></p>
+    <p class="contact-info"><i class="fab fa-github"></i> GitHub: <a href="https://github.com/visha1stack" target="_blank">visha1stack</a></p>
+  </section>
+</div>
+<footer>
+  &copy; 2025 Vishal Kumar. All rights reserved.
+</footer>
+</body>
+</html>
